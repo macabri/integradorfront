@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/20d5dfa82e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="div-atras">
+         <a href="./index.html"><button class="boton-volver"><i class="fa-solid fa-circle-arrow-left"></i> Volver al Inicio</button></a>
+    </div>
+   <!-- card -->
+    <div class= "login-box">
+        <img src="./imagenes/logologin.png">
+        <div>
+            <div>
+                <!-- header -->
+                <div class="header">
+                    <div>
+                        <h2 class="headerlogin"> INICIA SESIÓN </h2>
+                    </div>
+                    <div>
+                        <p class="texto-ingresar"> Para acceder al aula virtual, por favor ingresa tus datos.</p>
+                    </div>
+                </div>
+
+                <!-- login -->
+                <div>
+                    <form class="login">
+                        <input type="text" name="name" id="logName" placeholder="Usuario">
+                        <input type="password" name="password" id="logPassword" placeholder="Contraseña">
+                        <div id="check">
+                            <input type="checkbox" id="recordarme">
+                            <label for="recordarme">Recordarme</label>
+                        </div>
+                        <input type="submit" value="INGRESAR">
+                        <a href="#">¿Olvidaste tu Contraseña?</a>
+                        <a class= "registrarse" href="./registrarse.html">Registrarse</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

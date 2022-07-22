@@ -1,0 +1,442 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+}
+/*header*/
+.lista-nav {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.1em;
+    flex-wrap: wrap;
+    gap: 50px ;
+    height: auto;
+}
+
+.icon-menu{
+    display: none;
+    font-size: 40px;
+    color: #745a82;
+    margin-top: 10px;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    max-width: 1333px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.logoheader{
+    display: flex;
+    align-items: center;
+}
+
+.logoyogaheader {
+    width: 200px;
+    height:150%;
+}
+
+.nav {
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.titulos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #745a82;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #745a82;
+}
+
+.input [type=submit]{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-right: 100px;
+    background-color:#745a82;
+    color: white;
+    font-weight: 600;
+    outline: 0;
+    border: 3px solid #cba2d8;
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 2px #EAE9E7;
+    margin-top: 3%;
+    cursor:pointer;
+
+}
+
+input:hover {
+    background-color: white;
+    color: #292828;
+    font-weight: bold;
+}
+
+
+/*hero*/
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imagenes/6.jpg");
+    
+}
+
+.hero-container {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #f7f7f7;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.hero-titulo {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.hero-subtitulo {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.imagen-hero {
+    width: 100%;
+    height:545px;
+    border-radius: 40px;
+}
+
+/*tarjetas*/
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    color:#745a82;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-card {
+    text-align: center;
+    width:300px;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.texto-dia {
+    text-align: left;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.tarjetayoga {
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:300px;
+    border-radius: 10%;
+    box-shadow: 0px 2px 14px 2px  #EAE9E7;
+    object-fit: cover;
+    transition: transform .3s;
+}
+
+.linea {
+    border-top: 1px solid #745a82;
+    height: 1px;
+    width: 90%;
+    padding: 0;
+    margin: 10px auto 0 auto;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.boton-vermas, .hero-boton {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    background-color:#745a82;
+    color: white;
+    font-weight: 600;
+    outline: 0;
+    border: 3px solid #cba2d8;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 3%;
+    cursor:pointer;
+}
+
+.boton-vermas:hover, .boton-aula:hover, .hero-boton:hover {
+    background-color: white;
+    color: #292828;
+    font-weight: bold;
+}
+
+.boton-aula {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    background-color:#745a82;
+    color: white;
+    font-weight: 600;
+    outline: 0;
+    border: 3px solid #cba2d8;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 2px #EAE9E7;
+    margin-top: 2px;
+    cursor:pointer;
+}
+
+.diahora {
+    display: flex;
+}
+
+/*carreras*/
+.carrerayoga {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-carrera {
+    width:300px;
+    height:250px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 30px;
+    margin-top: 5px;
+}
+
+
+/*galeria*/
+.titulos {
+    text-align: center;
+    margin: 50px;
+}
+ 
+.titulos h2 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.galeria {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-galeria {
+    width:300px;
+    height:200px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height:auto;
+    background-color: #2A2A2A;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.logofooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoyogafooter {
+    width: 200px;
+    height:150%;
+    margin-top: 20px;
+}
+
+.titulo {
+    color: white;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.enviar-footer {
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 15px;
+    background-color:#745a82;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 3%;
+    cursor:pointer; 
+    border: 3px solid #cba2d8;
+}
+
+.enviar-footer:hover {
+    background-color: white;
+    color: #292828;
+    font-weight: bold;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto {
+    padding-right: 5%;
+    padding-left: 5%;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+}
+
+.direccion ul{
+    padding: 0px;
+}
+.direccion {
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 100%;
+    margin: 20px;
+}
+
+.direccion li, .redes li{
+    list-style: none;
+    margin: 10px;
+    color: white;
+    font-size: 0.8em;
+
+}
+
+.direccion i{
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.formulario-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-footer [type=text] {
+    display:block;
+    position: relative;
+	border: 4px solid white;
+	padding: 0.4em 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 60%;
+ 	box-sizing: border-box;
+    font-size: 12px;
+    outline: none;
+}
+
+.formulario-footer [type=textmensaje] {
+	border: 4px solid white;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    padding-bottom: 8.5em;
+    width: 60%;
+    height: 140px;
+ 	box-sizing: border-box;
+    font-size: 12px;
+    outline: none;
+}
+
+.linea-footer{
+    border-top: 2px solid #745a82;
+    height: 2px;
+    width: 10%;
+    padding: 0;
+}
+
+.seguinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-redes{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-redes i{
+    font-size: 1.5em;
+}
+
+.lista-redes i:hover{
+    font-size: 2em;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+  @media (max-width: 700px) {
+    .hero-boton {
+      margin-top: -5px;
+    }
+  }
+
+  @media (max-width: 1212px) {
+    .nav ul {
+     display: none;
+    }
+    .icon-menu{
+        display: inline-block !important;
+    }
+    .menu-toggle:checked ~ ul{
+        display: inline-block !important;
+    }
+    .menu-toggle:checked ~ .lista-nav{
+        margin-top: 50px;
+    }
+  
+  }
